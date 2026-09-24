@@ -1,0 +1,1 @@
+Simple terraform project to create an s3 bucket in AWS for use as terraform remote state backend.
