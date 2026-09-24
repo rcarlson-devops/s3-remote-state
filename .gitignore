@@ -1,0 +1,28 @@
+# Local .terraform directories containing downloaded provider plugins and modules
+.terraform/
+
+# Hide local state files and backups (State files contain raw infrastructure secrets!)
+*.tfstate
+*.tfstate.*
+
+# Crash log files if a terraform command fails abruptly
+crash.log
+crash.*.log
+
+# Exclude all local variables files which often hold private API keys, passwords, and tokens
+*.tfvars
+*.tfvars.json
+
+# Override files used for local testing tweaks
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files generated locally
+.terraformrc
+terraform.rc
+
+# Ignore Terraform plan files generated via `terraform plan -out=filename`
+# (Plan files can also contain sensitive plaintext secrets)
+*.tfplan
